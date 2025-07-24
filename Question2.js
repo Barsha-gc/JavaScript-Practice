@@ -1,4 +1,3 @@
-// Check if a word or number is a palindrome. (e.g. 121, "madam")
 function isPalindrome(input) {
   const str = input.toString().toLowerCase();
   const reversed = str.split("").reverse().join("");
